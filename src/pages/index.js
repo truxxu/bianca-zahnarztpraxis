@@ -37,150 +37,94 @@ class Index extends React.Component {
         <Nav sticky={this.state.stickyNav} />
 
         <div id="main">
-          <section id="intro" className="main">
-            <div className="spotlight">
-              <div className="content">
-                <header className="major">
-                  <h2>Ipsum sed adipiscing</h2>
-                </header>
-                <p>
-                  Sed lorem ipsum dolor sit amet nullam consequat feugiat
-                  consequat magna adipiscing magna etiam amet veroeros. Lorem
-                  ipsum dolor tempus sit cursus. Tempus nisl et nullam lorem
-                  ipsum dolor sit amet aliquam.
-                </p>
-                <ul className="actions">
-                  <li>
-                    <Link to="/generic" className="button">
-                      Learn More
-                    </Link>
-                  </li>
-                </ul>
-              </div>
-              <span className="image">
-                <img src={pic01} alt="" />
-              </span>
-            </div>
-          </section>
-
           <section id="first" className="main special">
             <header className="major">
-              <h2>Magna veroeros</h2>
+              <h2>Informationen während der SARS CoV-2 Pandemie</h2>
             </header>
-            <ul className="features">
-              <li>
-                <span className="icon major style1 fa-code"></span>
-                <h3>Ipsum consequat</h3>
-                <p>
-                  Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
-                  consequat tempus veroeros sed consequat.
-                </p>
-              </li>
-              <li>
-                <span className="icon major style3 fa-copy"></span>
-                <h3>Amed sed feugiat</h3>
-                <p>
-                  Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
-                  consequat tempus veroeros sed consequat.
-                </p>
-              </li>
-              <li>
-                <span className="icon major style5 fa-diamond"></span>
-                <h3>Dolor nullam</h3>
-                <p>
-                  Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
-                  consequat tempus veroeros sed consequat.
-                </p>
-              </li>
-            </ul>
-            <footer className="major">
-              <ul className="actions">
-                <li>
-                  <Link to="/generic" className="button">
-                    Learn More
-                  </Link>
-                </li>
-              </ul>
-            </footer>
+            <p>Liebe Patienten, Ihre Gesundheit ist uns wichtig! </p>
+            <p>
+              Die Arbeit in der Zahnarztpraxis unterliegt während der Pandemie
+              des Coronavirus SARS CoV-2 außerordentlich strengen Hygiene- und
+              Schutzvorkehrungen, die wir unter Berücksichtigung der verfügbaren
+              Mittel umsetzen.
+            </p>
+            <p>
+              Bitte halten Sie sich an den allgemein gültigen Corona -
+              Verhaltenscodex.
+            </p>
+            <p>
+              Die Information des{' '}
+              <a href="https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/nCoV_node.html">
+                Robert-Koch -Institutes
+              </a>{' '}
+              und der <a href="https://zkn.de/">Zahnärztevertretung</a> nutzen
+              wir täglich um unser Verhalten anzupassen.
+            </p>
+            <p>
+              Glücklicherweise haben wir keinen Engpass an Desinfektionsmitteln
+              und Schutzausrüstung. Der Praxisbetrieb zur Versorgung unserer
+              Patienten wird aufrecht erhalten.
+            </p>
+            <p>
+              <b>Falls Sie</b> jedoch zu der{' '}
+              <b>gefährdeten Bevölkerungsgruppe</b> gehören oder{' '}
+              <b>Halsschmerzen, Temperatur, Husten</b> haben, bitten wir Sie
+              Ihren Zahnarzttermin <b>abzusagen</b>.
+            </p>
+            <p>Vielen Dank für Ihr Verständnis!</p>
+            <p>Ihr Praxisteam Zahnarztpraxis Bianca Weisz</p>
           </section>
 
           <section id="second" className="main special">
             <header className="major">
-              <h2>Ipsum consequat</h2>
-              <p>
-                Donec imperdiet consequat consequat. Suspendisse feugiat congue
-                <br />
-                posuere. Nulla massa urna, fermentum eget quam aliquet.
-              </p>
+              <h2>Kontakt</h2>
             </header>
-            <ul className="statistics">
-              <li className="style1">
-                <span className="icon fa-code-fork"></span>
-                <strong>5,120</strong> Etiam
+            <ul className="features">
+              <li>
+                <span className="icon major style6 fa-hourglass-half"></span>
+                <h3>Sprechzeiten</h3>
+                <p>
+                  <strong>Mo., Di. und Do.</strong> <br />
+                  8.30 - 12.00 Uhr <br />
+                  15.00 - 18.00 Uhr <br />
+                  <strong>Mi. und Fr.</strong> <br />
+                  8.30 - 12.00 Uhr <br />
+                  sowie nach Vereinbarung
+                </p>
               </li>
-              <li className="style2">
-                <span className="icon fa-folder-open-o"></span>
-                <strong>8,192</strong> Magna
+              <li>
+                <span className="icon major style6 fa-map-marker"></span>
+                <h3>Adresse</h3>
+                <p>
+                  Dornbusch 3 <br /> 31311 Uetze/Hänigsen <br /> Deutschland
+                </p>
               </li>
-              <li className="style3">
-                <span className="icon fa-signal"></span>
-                <strong>2,048</strong> Tempus
-              </li>
-              <li className="style4">
-                <span className="icon fa-laptop"></span>
-                <strong>4,096</strong> Aliquam
-              </li>
-              <li className="style5">
-                <span className="icon fa-diamond"></span>
-                <strong>1,024</strong> Nullam
+              <li>
+                <span className="icon major style6 fa-phone"></span>
+                <h3>Kontakt</h3>
+                <p>
+                  <strong>Telefon</strong> <br />
+                  <a href="tel:0514772255">05147 - 72255</a> <br />
+                  <strong>Email</strong> <br />
+                  <a href="mailto:info@biancaweisz.de">info@biancaweisz.de</a>
+                </p>
               </li>
             </ul>
-            <p className="content">
-              Nam elementum nisl et mi a commodo porttitor. Morbi sit amet nisl
-              eu arcu faucibus hendrerit vel a risus. Nam a orci mi, elementum
-              ac arcu sit amet, fermentum pellentesque et purus. Integer maximus
-              varius lorem, sed convallis diam accumsan sed. Etiam porttitor
-              placerat sapien, sed eleifend a enim pulvinar faucibus semper quis
-              ut arcu. Ut non nisl a mollis est efficitur vestibulum. Integer
-              eget purus nec nulla mattis et accumsan ut magna libero. Morbi
-              auctor iaculis porttitor. Sed ut magna ac risus et hendrerit
-              scelerisque. Praesent eleifend lacus in lectus aliquam porta. Cras
-              eu ornare dui curabitur lacinia.
-            </p>
-            <footer className="major">
-              <ul className="actions">
-                <li>
-                  <Link to="/generic" className="button">
-                    Learn More
-                  </Link>
-                </li>
-              </ul>
-            </footer>
           </section>
 
-          <section id="cta" className="main special">
+          <section id="third" className="main special">
             <header className="major">
-              <h2>Congue imperdiet</h2>
-              <p>
-                Donec imperdiet consequat consequat. Suspendisse feugiat congue
-                <br />
-                posuere. Nulla massa urna, fermentum eget quam aliquet.
-              </p>
+              <h2>Hier finden Sie uns</h2>
+              <div className="map-container">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2429.8733183310565!2d10.086591815235655!3d52.481429379806904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b01beee1241145%3A0xc5aeb07577a9b146!2sBianca+Weisz+%E2%80%93+Praxis+f%C3%BCr+Zahnmedizin!5e0!3m2!1ses-419!2sde!4v1549983788124"
+                  frameBorder="0"
+                  width="100%"
+                  height="100%"
+                  allowfullscreen
+                />
+              </div>
             </header>
-            <footer className="major">
-              <ul className="actions">
-                <li>
-                  <Link to="/generic" className="button special">
-                    Get Started
-                  </Link>
-                </li>
-                <li>
-                  <Link to="/generic" className="button">
-                    Learn More
-                  </Link>
-                </li>
-              </ul>
-            </footer>
           </section>
         </div>
       </Layout>
